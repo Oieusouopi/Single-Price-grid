@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body {
+    font-family: sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+#high-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: inline-table;
+    flex-wrap: wrap;
+    border: 1px hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 4px black;
+}
+#first-block {
+    background: hsl(0, 0%, 100%);
+    padding: 25px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    height: 130px;
+}
+#second-block {
+    padding: 10px;
+    background-color: hsl(179, 62%, 43%);
+    width: 250px;
+    color: hsl(0, 0%, 100%);
+}
+#two-blocks {
+    display: inline-flex;
+    border-radius: 0px 0px 10px 10px;
+    border: hidden 1px;
+    padding: 10px;
+    display: inline-flex;
+    background-color: hsl(179, 62%, 43%);
+    width: 540px;
+    height: 180px;
+}
+#third-block {
+    padding: 10px;
+    background-color: hsl(179, 62%, 43%);
+    width: 250px;
+}
+button {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 190px;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 40px;
+    border: 1px hidden
+}
+#second-block h3{
+    padding: 7px;
+    font-size: 18px;
+}
+#second-block div{
+    padding: 8px;
+}
+#second-block p{
+    font-size: 14px;
+    margin-left: 8px;
+}
+#first-block p{
+    font-size: 15px;
+    padding-top: 14px;
+    color: hsl(205, 41%, 79%)
+}
+#third-block p{
+    margin-top: 15px;
+    font-size: 13px;
+    color: hsl(205, 41%, 79%);
+}
+#first-block h2{
+    font-size: 18px;
+    color: hsl(179, 62%, 43%);;
+}
+#first-block h3{
+    padding-bottom: 5px;
+    padding-top: 25px;
+    font-size: 16px;
+    color: hsl(71, 73%, 54%);;
+}
+#second-block div{
+    display:inline-flex;
+    padding: 5px;
+    font-size: 20px;
+}
+#third-block h3{
+    padding-top: 5px;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+ }
+
+@media (max-width: 370px)
+{
+body {
+ padding: 0;
+ margin: 0;
+}
+#high-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    flex-wrap: nowrap;
+    border: 1px hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 4px black
+}
+ }
